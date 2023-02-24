@@ -1,0 +1,87 @@
+@font-face {
+    font-family: bit;
+    src: url('Pixeled.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: bit !important;
+}
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(85, 85, 85);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 5vh;
+    width: 100%;
+    background-color: skyblue;
+    font-family: monospace;
+    color: white;
+    padding-left: 1vw;
+}
+
+nav h2 {
+    font-size: 2vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: transparent;
+    flex-direction: column;
+    padding-top: 3vw;
+}
+
+main h2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 5vw;
+}
+
+main div {
+    margin-top: 2vw !important;
+    width: 50vw;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 5vw;
+    border-radius: 100px;
+    box-shadow: 0 0 3vw rgb(109, 201, 255);
+    background-color: rgb(109, 201, 255);
+    color: white;
+}
+
+#wel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5VW;
+    font-family: monospace;
+    z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
